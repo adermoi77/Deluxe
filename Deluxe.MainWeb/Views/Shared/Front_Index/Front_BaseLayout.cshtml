@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Resource/css/body.css?ver=20170609" rel="stylesheet" />
+    <link href="~/Resource/css/StuStyle.css" rel="stylesheet" />
+    @RenderSection("Css", false)
+    @RenderSection("JavaScript", false)
+    <script src="~/Resource/js/jquery-3.2.1.min.js"></script>
+    <title>@ViewBag.Title</title>
+    <script>
+        $(function () {
+            $('.mainNav li a').click(function () {
+                var obj = $(this);
+                $('.mainNav li a').removeClass('active');
+                obj.addClass("active"); 
+                //  window.location.href = $(this)[0].href;
+                
+            });
+        }); 
+    </script>
+</head>
+<body>
+@Html.Partial("Front_Index/Front_Header")
+@RenderBody()
+@Html.Partial("Front_Index/Front_Footer")
+
+</body>
+</html>

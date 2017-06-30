@@ -1,0 +1,114 @@
+.StuList{
+	width: 257px;
+	height: 950px;
+    border: 1px solid #EAEAEA;
+	float: left;
+	margin-top: 10px;
+    border-radius: 5px 5px 0 0;
+}
+.StuContainer{
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	overflow: auto;
+}
+.StuCenter{
+	width: 723px; 
+	float: left;
+	margin-left: 18px;
+}
+.menu1{
+	width: 720px;
+	height: 160px;
+	border: 1px solid #EAEAEA;
+	float: left;
+	margin-top: 10px;
+}
+.menu1:hover{
+	border: 1px solid #0E97E6;
+	/*background-color: #EBF1F5;*/
+}
+.articleImg1{
+	width: 150px;
+    height: 140px;
+    border: 1px solid #0E97E6;
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+.articleCenter1{
+    float: right; 
+    width: 520px;
+    height: 160px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.articleTitle1{
+	text-decoration: none; 
+    font-size: 20px;
+    font-weight: bold;
+    color: #555555;
+}
+.articleTitle1:hover{
+	color: #0E97E6;
+}
+.dateview1{
+	background-image: url(../img/time.jpg);
+	background-repeat: no-repeat;
+	background-position-y: 5px;
+	margin-top: 5px;
+}
+.dateview1 span{
+	margin: 0 20px;
+    font-size: 14px;
+    color: #A6A6A6;
+}
+.articleTopic1{
+    margin-top: 6px;
+    font-size: 14px;
+    color: #A6A6A6;
+    height: 56px;
+    overflow: hidden;
+}
+.redarticle1{
+	color: #fff;
+    width: 100px;
+    height: 28px;
+    display: block;
+    background: #FE7796;
+     float: right; 
+    text-align: center;
+    font-size: 14px;
+    line-height: 28px;
+}
+.StuListTitle {
+    height: 50px;
+    background-color: #EAEAEA;
+    line-height: 50px;
+    padding: 0 0 0 20px;
+    border-bottom: 1px solid #ddd;
+}
+.StuListul li>a {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 0 0 20px;
+    border-bottom: 1px solid #ddd;
+    color: #42A8E1;
+    display: inline-block;
+    width: 237px;
+}
+.StuListul li>a:hover {
+    background-color: #EAEAEA;
+}
+.StuListul li a>span {
+    margin-left: 10px;
+    display: inline-block;
+    background-color: #FE7796;
+    color: white;
+    line-height: 20px;
+    width: 65px;
+    text-align: center; 
+    border-radius: 4px;
+}

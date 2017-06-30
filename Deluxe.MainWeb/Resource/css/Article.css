@@ -1,0 +1,108 @@
+.ArticleList{
+    width: 257px;
+    height: 950px;
+    border: 1px solid #EAEAEA;
+    float: left;
+    margin-top: 10px;
+    border-radius: 5px 5px 0 0;
+}
+.ArticleContainer{
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 15px; 
+	overflow: auto;
+}
+.ArticleCenter{
+    width: 720px;
+	float: left;
+	margin-left: 18px;
+	border: 1px solid #DDDDDD;
+	margin-top: 10px;
+	min-height:950px; 	 
+}
+.ArticlePanl{ 
+	width: 680px;
+	margin: 0 auto; 
+	height: 900px;
+	border-top: 1px solid #EAEAEA;
+}
+.ArticlePanl-Header{
+	display: block;
+}
+.ArticlePanl-Title{
+	position: relative;
+    font-size: 16px;
+    font-size: 1.5rem;
+    line-height: 30px;
+    text-align: center;
+    margin: 30px -20px 25px -20px;
+    padding: 5px 20px;
+    border-left: 5px solid #2f889a;
+    border-right: 5px solid #2f889a;
+    color: #6C6C6C;
+}
+.ArticlePanl-Center{
+	font-size: 1.0rem;
+    line-height: 1.8;
+    font-family: initial;
+        
+}
+.ArticlePanl-Center p{
+	text-indent: 2em;
+}
+.StuListTitle {
+    height: 50px;
+    background-color: #EAEAEA;
+    line-height: 50px;
+    padding: 0 0 0 20px;
+    border-bottom: 1px solid #ddd;
+}
+.StuListul li>a {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 0 0 20px;
+    border-bottom: 1px solid #ddd;
+    color: #42A8E1;
+    display: inline-block;
+    width: 237px;
+}
+.StuListul li>a:hover {
+    background-color: #EAEAEA;
+}
+.StuListul li a>span {
+    margin-left: 10px;
+    display: inline-block;
+    background-color: #FE7796;
+    color: white;
+    line-height: 20px;
+    width: 65px;
+    text-align: center; 
+    border-radius: 4px;
+}
+.ArticleNav {
+    height: 50px;
+}
+.ArticleNav ul li:first-child {
+    display: inline-block;
+    float: left;
+     display: inline-block;
+    float: left;
+    margin: 15px 3px 0 20px;
+}
+.ArticleNav ul li {
+        display: inline-block;
+    float: left;
+     display: inline-block;
+    float: left;
+    margin: 15px 3px 0 5px;
+}
+.ArticleNav ul li>a {
+        color: #4E4E50;
+}
+.ArticleNavICO {
+    width: 16px;
+    height: 21px;
+    display: block;
+    margin-top: 2px;
+}

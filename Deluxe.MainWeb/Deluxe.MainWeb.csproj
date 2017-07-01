@@ -148,6 +148,8 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Back_Index\Back_IndexAreaRegistration.cs" />
+    <Compile Include="Areas\Back_Permission\Back_PermissionAreaRegistration.cs" />
+    <Compile Include="Areas\Back_Permission\Controllers\AuthController.cs" />
     <Compile Include="Areas\Front_Index\Controllers\DefaultController.cs" />
     <Compile Include="Areas\Front_Index\Front_IndexAreaRegistration.cs" />
     <Compile Include="Controllers\SysMainController.cs" />
@@ -164,12 +166,15 @@
     <Content Include="Resource\css\body.css" />
     <Content Include="Resource\css\bootstrap-theme.min.css" />
     <Content Include="Resource\css\bootstrap.min.css" />
+    <Content Include="Resource\css\login.css" />
     <Content Include="Resource\css\StuStyle.css" />
     <Content Include="Resource\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Resource\img\1738455861.jpg" />
+    <Content Include="Resource\img\aiwrap.png" />
     <Content Include="Resource\img\Log.png" />
     <Content Include="Resource\img\nav.png" />
     <Content Include="Resource\img\time.jpg" />
+    <Content Include="Resource\img\web_login_bg.jpg" />
     <Content Include="Resource\js\bootstrap.min.js" />
     <Content Include="Resource\js\jquery-3.2.1.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -200,6 +205,8 @@
     <Folder Include="Areas\Back_Index\Controllers\" />
     <Folder Include="Areas\Back_Index\Models\" />
     <Folder Include="Areas\Back_Index\Views\Shared\" />
+    <Folder Include="Areas\Back_Permission\Models\" />
+    <Folder Include="Areas\Back_Permission\Views\Shared\" />
     <Folder Include="Areas\Front_Index\Models\" />
     <Folder Include="Areas\Front_Index\Views\Shared\" />
     <Folder Include="Content\" />
@@ -236,6 +243,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\Front_Index\Views\Default\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\Back_Permission\Views\web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\Back_Permission\Views\Auth\Login.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
